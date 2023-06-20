@@ -6,7 +6,7 @@ const port = 3000;
 
 
 const MongoClient = require("mongodb").MongoClient;
-const url = "mongodb://mongo2:27017/";
+const url = "mongodb://localhost:27017";
 const mongoClient = new MongoClient(url);
 count = 0;
 
